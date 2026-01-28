@@ -1,9 +1,19 @@
 import React from "react";
 
-function Sidebar() {
+function Sidebar({ isOpen }) {
   return (
     <>
-      <div
+      <div style={{
+        width: isOpen ? "250px" : "0",
+        transition: "0.3s",
+        overflow: "hidden",
+        background: "grey",
+        color: "white",
+        height: "100vh",
+        position: "fixed",
+        top: 55,
+        left: 0,
+      }}
         class="offcanvas offcanvas-end show"
         tabindex="-1"
         id="offcanvasNavbar"
@@ -13,9 +23,10 @@ function Sidebar() {
       >
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-            Offcanvas
+           My Portfolio
           </h5>
           <button
+           style={{ color: "white"}}
             type="button"
             class="btn-close"
             data-bs-dismiss="offcanvas"
@@ -67,15 +78,13 @@ function Sidebar() {
             </li>
           </ul>
           <form class="d-flex mt-3" role="search">
-            <input
+            {/* <input
               class="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            /> */}
+            
           </form>
         </div>
       </div>
