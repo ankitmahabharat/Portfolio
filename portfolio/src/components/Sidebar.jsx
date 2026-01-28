@@ -4,15 +4,15 @@ function Sidebar({ isOpen }) {
   return (
     <>
       <div style={{
-        width: isOpen ? "250px" : "0",
+        widows: "700px",
         transition: "0.3s",
         overflow: "hidden",
         background: "grey",
         color: "white",
-        height: "100vh",
+        height: isOpen ? "100vh" : "0",
         position: "fixed",
         top: 55,
-        left: 0,
+        left: 1250,
       }}
         class="offcanvas offcanvas-end show"
         tabindex="-1"
@@ -25,13 +25,13 @@ function Sidebar({ isOpen }) {
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
            My Portfolio
           </h5>
-          <button
+          {/* <button
            style={{ color: "white"}}
             type="button"
             class="btn-close"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
-          ></button>
+          ></button> */}
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">

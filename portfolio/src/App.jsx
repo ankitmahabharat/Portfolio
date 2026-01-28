@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
+import Hero from "./components/Hero";
+
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +18,7 @@ function App() {
     <>
       <Navbar toggleSidebar={toggleSidebar}></Navbar>
       <Sidebar isOpen={isOpen}></Sidebar>
+      <Hero></Hero>
       <Footer></Footer>
     </>
   );
