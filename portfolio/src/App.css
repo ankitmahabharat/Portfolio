@@ -1,11 +1,8 @@
 @import "tailwindcss";
 
 
-
-
-
-
-/* .hamburger{
- transform: translate(-1392px,0px);
- border: 2px;
-} */
+.particles-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

@@ -5,21 +5,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
 import Hero from "./components/Hero";
-
-
+import Particles from "./Particles";
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <>
-      <Navbar toggleSidebar={toggleSidebar}></Navbar>
-      <Sidebar isOpen={isOpen}></Sidebar>
-      <Hero></Hero>
-      <Footer></Footer>
+      <div className="w-full h-screen relative bg-black flex justify-center items-center">
+        <div style={{ width: "100%", height: "600px", position: "relative" }}>
+          <Particles
+            particleColors={["#ffffff"]}
+            particleCount={200}
+            particleSpread={10}
+            speed={0.1}
+            particleBaseSize={100}
+            moveParticlesOnHover
+            alphaParticles={false}
+            disableRotation={false}
+            pixelRatio={1}
+          />
+        </div>
+      </div>
     </>
   );
 }
