@@ -7,6 +7,7 @@ import { useState } from "react";
 import Hero from "./components/Hero";
 import Particles from "./Particles";
 function App() {
+ 
   return (
     <>
       <div className="w-full h-screen relative bg-black flex justify-center items-center">
@@ -22,6 +23,9 @@ function App() {
             disableRotation={false}
             pixelRatio={1}
           />
+        </div>
+        <div className=" relative pt-20">
+          <Navbar></Navbar>
         </div>
       </div>
     </>
