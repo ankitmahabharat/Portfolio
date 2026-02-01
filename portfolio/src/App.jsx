@@ -10,7 +10,7 @@ function App() {
  
   return (
     <>
-      <div className="w-full h-screen relative bg-black flex justify-center items-center">
+      <div className="w-full h-screen relative bg-[#010f18] flex justify-center items-center">
         <div style={{ width: "100%", height: "600px", position: "relative" }}>
           <Particles
             particleColors={["#ffffff"]}
@@ -24,7 +24,7 @@ function App() {
             pixelRatio={1}
           />
         </div>
-        <div className=" relative pt-20">
+        <div className=" absolute pt-20">
           <Navbar></Navbar>
         </div>
       </div>
