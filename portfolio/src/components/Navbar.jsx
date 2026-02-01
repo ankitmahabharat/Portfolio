@@ -11,6 +11,8 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScroll(window.scrollY > 50);
     };
+     window.addEventListener("scroll",handleScroll);
+     return ()=> window.removeEventListener("scroll",handleScroll);
   }, []);
 
   const handleMenuItemClick = (sectionId) => {
@@ -50,7 +52,7 @@ const Navbar = () => {
           <span className="text-white">Mahabharat</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
-        <ul className=" flex space-x-8 text-gray-300">
+        <ul className=" hidden md:flex space-x-8 text-gray-300">
           {menuItems.map((item) => (
             <li
               key={item.id}
@@ -60,6 +62,23 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+
+        <div className=" hidden md:flex space-x4">
+          <a href="https://github.com/ankitmahabharat"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-[#8245ec]">
+            <FaGithub size ={24}></FaGithub>
+          </a>
+          <a href="https://www.linkedin.com/in/ankit-mahabharat-7730b7134/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-[#8245ec]">
+            <FaLinkedin size ={24}></FaLinkedin>
+          </a>
+
+        </div>
       </div>
     </nav>
   );
