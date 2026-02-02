@@ -55,14 +55,14 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${activeSec === item.id ? " text-[#8245ec]" : ""}`}
+              className={`cursor-pointer  hover:text-[#8245ec] ${activeSec === item.id ? " text-[#8245ec]" : ""}`}
             >
               <button>{item.label}</button>
             </li>
           ))}
         </ul>
 
-        <div className=" hidden md:flex space-x4">
+        <div className=" gap-3 hidden md:flex space-x4">
           <a
             href="https://github.com/ankitmahabharat"
             target="_blank"
@@ -108,7 +108,7 @@ const Navbar = () => {
                 </button>
               </li>
             ))}
-            <div className=" flex space x-4">
+            <div className="  gap-2 flex space x-4">
               <a
                 href="https://github.com/ankitmahabharat"
                 target="_blank"
