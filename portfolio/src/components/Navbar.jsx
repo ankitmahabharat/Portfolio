@@ -3,7 +3,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsCursor } from "react-icons/bs";
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState("false");
+  const [isOpen, setIsOpen] = useState(false);
   const [activeSec, setActiveSec] = useState("");
   const [isScroll, setIsScroll] = useState(false);
 
@@ -22,20 +22,20 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      id: "about",
+      id: "About",
       label: "About",
     },
     {
-      id: "skills",
+      id: "Skills",
       label: "Skills",
     },
-   
+
     {
-      id: "education",
+      id: "Education",
       label: "Education",
     },
     {
-      id: "project",
+      id: "Project",
       label: "Project",
     },
   ];
@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className=" absolute top-16 left-1/2 transform-translate-x-1/2 w-4/5 bg-transparent bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg">
+        <div className=" absolute  top-16 left-10 transform-translate-x-1/2 w-4/5 bg-transparent bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg">
           <ul className=" flex flex-col item-centre space-y-4 py-4 text-gray-300">
             {menuItems.map((item) => (
               <li
