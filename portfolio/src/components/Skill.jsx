@@ -10,4 +10,3 @@ const Skill = () => {
 };
 
 export default Skill;
- <div className=""></div>
