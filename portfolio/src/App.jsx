@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import { useState } from "react";
 import About from "./components/About";
 import Particles from "./Particles";
+import Contact from "./components/Contact";
 function App() {
  
   return (
@@ -29,6 +30,7 @@ function App() {
           <About></About>
           <Skills></Skills>
           <Education></Education>
+          <Contact></Contact>
         </div>
       </div>
     </>
