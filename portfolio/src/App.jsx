@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Sidebar from "./components/Sidebar";
+import Skill from "./components/Skill";
 import { useState } from "react";
 import About from "./components/About";
 import Particles from "./Particles";
@@ -27,6 +27,7 @@ function App() {
         <div className=" absolute pt-20">
           <Navbar></Navbar>
           <About></About>
+          <Skill></Skill>
         </div>
       </div>
     </>

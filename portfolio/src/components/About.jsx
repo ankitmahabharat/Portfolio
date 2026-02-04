@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 import ReactTypingEffect from "react-typing-effect";
 import profileImage from "../assets/profileImage.png";
 
+
 const About = () => {
   return (
     <section
