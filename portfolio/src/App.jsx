@@ -24,7 +24,7 @@ function App() {
             pixelRatio={1}
           />
         </div>
-        <div className=" absolute pt-20">
+        <div className="  absolute top-0 left-0 w-full ">
           <Navbar></Navbar>
           <About></About>
           <Skill></Skill>

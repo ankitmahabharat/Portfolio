@@ -41,7 +41,7 @@ const Navbar = () => {
   ];
   return (
     <nav
-      className={` fixed top-5 left-0 w-full z-50 transition duration-300 px-[7vw] lg:px-[20vw] ${isScroll ? " bg-[#050414] bg-opacity-50 backdrop-blur-md" : "bg-transparent"}`}
+      className={` fixed top-5 left-0 w-full z-50 transition duration-300 px-[7vw] lg:px-[20vw] ${isScroll ? " bg-transparent bg-opacity-50 backdrop-blur-md" : "bg-transparent"}`}
     >
       <div className="text-white py-2 flex justify-between items-centre">
         <div className=" text-lg font-semibold cursor-pointer">

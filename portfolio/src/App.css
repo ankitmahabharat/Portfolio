@@ -19,3 +19,9 @@
 html {
   scroll-behavior: smooth;
 }
+.skil{
+  transform: translateY(850px);
+}
+.sec{
+  transform: translateY(850px);
+}

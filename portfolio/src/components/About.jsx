@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className=" mt-0 top-5 py-4  px[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="  py-4  px[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className=" flex flex-col-reverse md:flex-row justify-between items-center transform translate-x20rm">
         <div className="md:w-1/2 top-0  text-center md:text-left mt-8 md:mt-0">
@@ -18,7 +18,7 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold-sans text-white mb-4 leading-tight">
             Ankit Mahabharat
           </h2>
-          <p className="text-xl sm:text-2xl md:text-3xl font-semibold-sans text-white mb-4 leading-relaxed">
+          <p className="text-xl sm:text-2xl md:text-3xl font-semibold-sans text-white mb-4 leading-relaxed font-sans">
             I am a Full-Stack Developer and problem-solver who loves building
             clean, scalable, and user-friendly applications. 
             {/* <span className="text-white">I am a </span> */}
