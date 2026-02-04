@@ -90,3 +90,37 @@ export const SkillsInfo = [
     ],
   },
 ];
+
+
+
+ export const education = [
+    
+    {
+      id: 0,
+      
+      school: "Babu Banarasi Das University, Lucknow",
+      
+      grade: "8.61 CGPA",
+      desc: "I doing my Bachelor's degree in Computer Science (B.Sc.) from Babu Banarasi Das University, Lucknow. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BBDU College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+      degree: "Bachelor of Science - BSC (Computer Science)",
+    },
+    {
+      id: 1,
+     
+      school: "Silver Grove School ,Varanasi",
+      
+      grade: "82.4%",
+      desc: "I completed my class 12 education from Silver Grove School ,Varanasi, under the ICSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+      degree: "ICSE(XII) - PCM with Computer Science",
+    },
+    {
+      id: 2,
+    
+      school: "Silver Grove School ,Varanasi",
+      date: "Apr 2015 - March 2016",
+      grade: "72.4%",
+      desc: "I completed my class 10 education from Silver Grove School ,Varanasi, under the ICSE board",
+      degree: "ICSE(X) - with Computer Science",
+    },
+  ];
+  

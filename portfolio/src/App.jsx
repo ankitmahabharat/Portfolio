@@ -2,7 +2,7 @@ import "./App.css";
 import Education from "./components/Education";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Skill from "./components/Skill";
+import Skills from "./components/Skills";
 import { useState } from "react";
 import About from "./components/About";
 import Particles from "./Particles";
@@ -10,9 +10,9 @@ function App() {
  
   return (
     <>
-      <div className="w-full h-screen relative bg-[#010f18] flex justify-center items-center">
+      <div className="w-full h-screen relative bg-[#13011e] flex justify-center items-center">
         <div style={{ width: "100%", height: "600px", position: "relative" }}>
-          <Particles
+          <Particles className={`min-h-screen w-full`}
             particleColors={["#ffffff"]}
             particleCount={200}
             particleSpread={10}
@@ -27,7 +27,7 @@ function App() {
         <div className="  absolute top-0 left-0 w-full ">
           <Navbar></Navbar>
           <About></About>
-          <Skill></Skill>
+          <Skills></Skills>
           <Education></Education>
         </div>
       </div>
