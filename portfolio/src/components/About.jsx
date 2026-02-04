@@ -12,13 +12,13 @@ const About = () => {
     >
       <div className=" flex flex-col-reverse md:flex-row justify-between items-center transform translate-x20rm">
         <div className="md:w-1/2 top-0  text-center md:text-left mt-8 md:mt-0">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold-sans text-white mb-2 leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold-sans text-white mb-2 font-sans-serif leading-tight">
             Hii, I am
           </h1>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold-sans text-white mb-4 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-sans-serif font-bold-sans text-white mb-4 leading-tight">
             Ankit Mahabharat
           </h2>
-          <p className="text-xl sm:text-2xl md:text-3xl font-semibold-sans text-white mb-4 leading-relaxed font-sans">
+          <p className="text-xl sm:text-2xl md:text-3xl font-semibold-sans text-white mb-4 leading-relaxed font-sans-serif">
             I am a Full-Stack Developer and problem-solver who loves building
             clean, scalable, and user-friendly applications. 
             {/* <span className="text-white">I am a </span> */}

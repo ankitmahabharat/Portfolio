@@ -1,7 +1,7 @@
 import React from "react";
 
-const Footer = () => {
+const Education = () => {
   return <div></div>;
 };
 
-export default Footer;
+export default Education;

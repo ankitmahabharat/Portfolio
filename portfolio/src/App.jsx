@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./components/Footer";
+import Education from "./components/Education";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Skill from "./components/Skill";
@@ -28,6 +28,7 @@ function App() {
           <Navbar></Navbar>
           <About></About>
           <Skill></Skill>
+          <Education></Education>
         </div>
       </div>
     </>
