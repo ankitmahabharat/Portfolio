@@ -18,6 +18,7 @@ const Navbar = () => {
   const handleMenuItemClick = (sectionId) => {
     setActiveSec(sectionId);
     setIsOpen(false);
+    
   };
 
   const menuItems = [
