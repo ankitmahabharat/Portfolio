@@ -7,6 +7,7 @@ import { useState } from "react";
 import About from "./components/About";
 import Particles from "./Particles";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
  
   return (
@@ -31,6 +32,7 @@ function App() {
           <Skills></Skills>
           <Education></Education>
           <Contact></Contact>
+          <Footer></Footer>
         </div>
       </div>
     </>
