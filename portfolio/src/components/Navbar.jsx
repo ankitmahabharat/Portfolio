@@ -22,16 +22,16 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      id: "About",
+      id: "about",
       label: "About",
     },
     {
-      id: "Skills",
+      id: "skills",
       label: "Skills",
     },
 
     {
-      id: "Education",
+      id: "education",
       label: "Education",
     },
     {
@@ -104,7 +104,7 @@ const Navbar = () => {
                 className={`cursor-pointer hover:text-white ${activeSec === item.id ? "text-[#8245ec]" : ""}`}
               >
                 <button onClick={() => handleMenuItemClick(item.id)}>
-                  {item.id}
+                  {item.label}
                 </button>
               </li>
             ))}
