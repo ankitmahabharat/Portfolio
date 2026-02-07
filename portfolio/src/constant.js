@@ -117,7 +117,6 @@ export const SkillsInfo = [
       id: 2,
     
       school: "Silver Grove School ,Varanasi",
-      
       grade: "72.4%",
       desc: "I completed my class 10 education from Silver Grove School ,Varanasi, under the ICSE board",
       degree: "ICSE(X) - with Computer Science",
