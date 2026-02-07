@@ -5,6 +5,9 @@ import profileImage from "../assets/profileImage.png";
 
 
 const About = () => {
+  const handleAnimationComplete = () => {
+  console.log('All letters have animated!');
+};
   return (
     <section
       id="about"
@@ -12,25 +15,17 @@ const About = () => {
     >
       <div className=" flex flex-col-reverse md:flex-row justify-between items-center transform translate-x20rm">
         <div className="md:w-1/2 top-0  text-center md:text-left mt-8 md:mt-0">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold-sans text-white mb-2 font-sans-serif leading-tight">
+        
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold-sans-serif text-white mb-2  leading-tight">
             Hii, I am
           </h1>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-sans-serif font-bold-sans text-white mb-4 leading-tight">
             Ankit Mahabharat
           </h2>
-          <p className="text-xl sm:text-2xl md:text-3xl font-semibold-sans text-white mb-4 leading-relaxed font-sans-serif">
-            I am a Full-Stack Developer and problem-solver who loves building
+          <p className="text-xl sm:text-2xl md:text-3xl font-semibold-sans-serif text-white mb-4 leading-relaxed ">
+            I am a Full-Stack Developer and problem-solver. Who loves building
             clean, scalable, and user-friendly applications. 
-            {/* <span className="text-white">I am a </span> */}
-            {/* <ReactTypingEffect>
-              text={["Fullstack Developer", "UI/UX Developer", "Coder"]}
-              speed={100}
-              eraseSpeed={50}
-              typingDelay={500}
-              eraseDelay={2000}
-              cursorRenderer=
-              {(cursor) => <span className=" text-[#8245ec]">{cursor}</span>}
-            </ReactTypingEffect> */}
+            
           </p>
         </div>
         <div className="md:w1/2 flex justify-centre md:justify-end">

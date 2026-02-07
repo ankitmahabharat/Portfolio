@@ -8,6 +8,7 @@ import About from "./components/About";
 import Particles from "./Particles";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 function App() {
  
   return (
@@ -26,7 +27,9 @@ function App() {
             pixelRatio={1}
           />
         </div>
+        
         <div className="  absolute top-0 left-0 w-full ">
+          
           <Navbar></Navbar>
           <About></About>
           <Skills></Skills>
