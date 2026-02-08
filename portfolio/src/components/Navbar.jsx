@@ -59,7 +59,7 @@ const Navbar = () => {
               key={item.id}
               className={`cursor-pointer  hover:text-[#8245ec] ${activeSec === item.id ? " text-[#8245ec]" : ""}`}
             >
-              <buthrefn>{item.label}</buthrefn>
+              <button>{item.label}</button>
             </li>
           ))}
         </ul>
@@ -104,12 +104,12 @@ const Navbar = () => {
               <li
                 key={item.id}
                 className={`cursor-pointer hover:text-white ${activeSec === item.id ? "text-[#8245ec]" : ""}`}
-              > <a href={`/item.id`}>
+              >
               
-                <buthrefn onClick={() => handleMenuItemClick(item.id)}>
+                <button onClick={() => handleMenuItemClick(item.id)}>
                   {item.label}
-                </buthrefn>
-</a>
+                </button>
+
               </li>
             ))}
             <div className="  gap-2 flex space x-4">
