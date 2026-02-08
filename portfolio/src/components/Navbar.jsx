@@ -64,23 +64,23 @@ const Navbar = () => {
         </ul>
 
         <div className=" gap-3 hidden md:flex space-x4">
-          <a
+          <Link
             href="https://github.com/ankitmahabharat"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaGithub size={24}></FaGithub>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://www.linkedin.com/in/ankit-mahabharat-7730b7134/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaLinkedin size={24}></FaLinkedin>
-          </a>
+          </Link>
         </div>
         <div className="md:hidden">
           {isOpen ? (
@@ -110,23 +110,23 @@ const Navbar = () => {
               </li>
             ))}
             <div className="  gap-2 flex space x-4">
-              <a
+              <Link
                 href="https://github.com/ankitmahabharat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaGithub size={24}></FaGithub>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="https://www.linkedin.com/in/ankit-mahabharat-7730b7134/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaLinkedin size={24}></FaLinkedin>
-              </a>
+              </Link>
             </div>
           </ul>
         </div>
