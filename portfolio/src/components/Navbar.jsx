@@ -97,7 +97,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className=" absolute  top-16 left-10 transform-translate-x-1/2 w-4/5 bg-transparent bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg">
+        <div className=" absolute  top-16 left-10 transform-translate-x-1/2 w-4/5  bg-[#11021d] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg">
           <ul className=" flex flex-col item-centre space-y-4 py-4 text-gray-300">
             {menuItems.map((item) => (
               <li
